@@ -5,6 +5,9 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+  background-color: #EEEEEE;
+  color:#929292;
+  min-width: 500px;
 }
 
 .App {
