@@ -15,11 +15,17 @@ const HeaderDiv = styled.div`
         vertical-align:center;
         padding:8px 15px;
         border-radius: 5px;
-        background-color: palegreen;
+        background-color: #54BAB9;
         cursor: pointer;
+        transition: all .2s;
+        color:#fff;
     }
     li:first-child{
         margin-right:20px;
+    }
+    li:hover{
+        box-shadow: 0 2px 5px 1px rgb(64 60 67 / .16);
+        transform: scale(1.04)
     }
 `
 export default HeaderDiv;
